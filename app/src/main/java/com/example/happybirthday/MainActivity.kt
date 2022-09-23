@@ -8,11 +8,11 @@ import android.os.Bundle
 
 //Pada kelas MainActivity program akan dicompile dan dijalankan
 class MainActivity : AppCompatActivity() {
-    //Pada kode program ini dciptakan fungsi onCreate digunakan sebagai kondisi awal
+    //Pada kode program ini diciptakan fungsi onCreate digunakan sebagai kondisi awal
     //activity diciptakan
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //R.layout.actiity_main akan mereferensikan layout pada activity_main.xml
+        //R.layout.actity_main akan mereferensikan layout pada activity_main.xml
         setContentView(R.layout.activity_main)
     }
 }
