@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!--ImageView adalah class yang berfungsi untuk menampilkan gambar di aplikasi.
+    ImageView terletak paling atas pada bagian layout karena digunakan sebagai backgroud-->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="0dp"
@@ -20,6 +22,7 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/androidparty" />
 
+<!--TextView adalah kelas yang berfungsi untuk menampilkan teks di layar aplikasi   -->
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -46,6 +49,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+<!--    Button adalah kelas yang digunakan untuk melakukan atau mengedalikan perintah tertentu-->
     <Button
         android:id="@+id/button"
         android:layout_width="271dp"
